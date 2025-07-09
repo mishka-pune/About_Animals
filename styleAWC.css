@@ -1,0 +1,17 @@
+a:hover {
+    color: lawngreen;
+}
+p::first-letter {
+    font-size: 200%;
+    color: greenyellow;
+}
+a::before {
+    content: "🐾 ";
+}
+a::after {
+    content: "🌲";
+}
+li:nth-child(3) {
+    background-color: lightgreen;
+}
+
